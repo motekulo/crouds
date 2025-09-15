@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_18840367"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-02-09-08:26:28)
+    (utime 2024-10-29-12:32:36)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "SF12011F-0102-20R-M-050")
+)
+
+
+(pinAssign "ECS_18840367"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-02-09-08:26:28)
+    (utime 2024-10-29-12:32:36)
+    (interface
+        (port "1" (symbPinId 1) (portName "NO") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "COM") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "NC") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_18840367")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SF12011F-0102-20R-M-050")
+)
+
+
+(part "SF12011F-0102-20R-M-050"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-02-09-08:26:28)
+    (utime 2024-10-29-12:32:36)
+    (packageRef "SF12011F-0102-20R-M-050")
+    (pinAssignRef "ECS_18840367")
+    (interface
+        (port "1" (symbPinId 1) (portName "NO") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "COM") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "NC") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "Pushbutton Switches 1 pole 2 positions momentary switch")
+    (property "Mouser_Part_Number" "107-SF12011F-102-M")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SF12011F-0102-20R-M-050?qs=IPgv5n7u5QYt4g%252Bq%2FbHblQ%3D%3D")
+    (property "Manufacturer_Name" "Alpha (Taiwan)")
+    (property "Manufacturer_Part_Number" "SF12011F-0102-20R-M-050")
+    (property "Datasheet_Link" "http://www.taiwanalpha.com/downloads?target=products&id=324")
+    (property "compAreaTopHeight" 33.5)
+)
+
+

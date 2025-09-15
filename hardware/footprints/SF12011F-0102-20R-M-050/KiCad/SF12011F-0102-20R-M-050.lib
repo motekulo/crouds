@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SF12011F-0102-20R-M-050
+#/18840367/1771790/2.50/3/3/Switch
+DEF SF12011F-0102-20R-M-050 S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "SF12011F-0102-20R-M-050" 750 200 50 H V L CNN
+F2 "SF12011F010220RM050" 750 100 50 H I L CNN
+F3 "http://www.taiwanalpha.com/downloads?target=products&id=324" 750 0 50 H I L CNN
+F4 "Pushbutton Switches 1 pole 2 positions momentary switch" 750 -100 50 H I L CNN "Description"
+F5 "33.5" 750 -200 50 H I L CNN "Height"
+F6 "107-SF12011F-102-M" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SF12011F-0102-20R-M-050?qs=IPgv5n7u5QYt4g%252Bq%2FbHblQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Alpha (Taiwan)" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SF12011F-0102-20R-M-050" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO 1 0 0 200 R 50 50 0 0 P
+X COM 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 N
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
