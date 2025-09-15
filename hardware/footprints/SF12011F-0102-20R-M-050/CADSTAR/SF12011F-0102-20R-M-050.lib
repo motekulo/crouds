@@ -1,0 +1,16 @@
+.SF12011F-0102-20R-M-050 :1 ;Pushbutton Switches 1 pole 2 positions momentary switch
+SF12011F010220RM050
+*STM S
+*NGS
+*PLB 1="NO" 2="COM" 3="NC"
+*MXP 3
+*DFN SF12011F-0102-20R-M-050
+~!Mouser Part Number (107-SF12011F-102-M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SF12011F-0102-20R-M-050?qs=IPgv5n7u5QYt4g%252Bq%2FbHblQ%3D%3D)
+~!Manufacturer_Name (Alpha (Taiwan))
+~!Manufacturer_Part_Number (SF12011F-0102-20R-M-050)
+~!Link Datasheet (http://www.taiwanalpha.com/downloads?target=products&id=324)
+~!Height (33.5mm)
+~!3D_Model (SF12011F-0102-20R-M-050)
+SF12011F-0102-20R-M-050
+1.1!U 2.1!U 3.1!U 

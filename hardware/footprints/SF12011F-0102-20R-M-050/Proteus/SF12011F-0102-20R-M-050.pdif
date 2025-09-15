@@ -1,0 +1,127 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SF12011F-0102-20R-M-050"
+   (description "Pushbutton Switches 1 pole 2 positions momentary switch")
+   (family "SWI")
+   (package "SF12011F010220RM050")
+   (attribute "Datasheet Link" "http://www.taiwanalpha.com/downloads?target=products&id=324")
+   (attribute "Geometry.Height" "33.5mm")
+   (attribute "Mouser Part Number" "107-SF12011F-102-M")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/SF12011F-0102-20R-M-050?qs=IPgv5n7u5QYt4g%252Bq%2FbHblQ%3D%3D")
+   (attribute "Manufacturer_Name" "Alpha (Taiwan)")
+   (attribute "Manufacturer_Part_Number" "SF12011F-0102-20R-M-050")
+   (gate
+    (symbol "SF12011F-0102-20R-M-050")
+    (pin "NO" 1 PS)
+    (pin "COM" 2 PS)
+    (pin "NC" 3 NC)
+   )
+  )
+  (symbol "SF12011F-0102-20R-M-050"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SF12011F010220RM050"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.7 8.5)
+      (pt 10.7 8.5)
+      (pt 10.7 -3.5)
+      (pt -2.7 -3.5)
+      (pt -2.7 8.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.7 8.5)
+      (pt 10.7 8.5)
+      (pt 10.7 -3.5)
+      (pt -2.7 -3.5)
+      (pt -2.7 8.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.7 9.5)
+      (pt 11.7 9.5)
+      (pt 11.7 -4.5)
+      (pt -3.7 -4.5)
+      (pt -3.7 9.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.3 0)
+      (arc (pt -3.300 0.000) (pt -3.300 -0.050) (pt -3.200 0.050) (start 180.0) (sweep -180.0))
+      (pt -3.2 0)
+      (arc (pt -3.200 0.000) (pt -3.300 -0.050) (pt -3.200 0.050) (start 180.0) (sweep .0))
+      (pt -3.3 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 4.000 0.000) (padstack 2))
+   (leg 3 (pt 8.000 0.000) (padstack 3))
+   (padstack 0
+    (hole 1.48)
+    (plated true)
+    (pad (layer TCOP) (square 2.220))
+    (pad (layer INNER) (round 2.220))
+    (pad (layer BCOP) (square 2.220))
+   )
+   (padstack 2
+    (hole 1.32)
+    (plated true)
+    (pad (layer TCOP) (round 1.980))
+    (pad (layer INNER) (round 1.980))
+    (pad (layer BCOP) (round 1.980))
+   )
+   (padstack 3
+    (hole 1.48)
+    (plated true)
+    (pad (layer TCOP) (round 2.220))
+    (pad (layer INNER) (round 2.220))
+    (pad (layer BCOP) (round 2.220))
+   )
+   (model "SF12011F-0102-20R-M-050.stp"
+    (euler 0 0 0)
+    (offset 4 2.5 0.1599999964237213)
+   )
+  )
+ )
+)
