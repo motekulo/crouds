@@ -11630,7 +11630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
 			(at 115.57 146.05 0)
 			(effects
 				(font
@@ -12460,7 +12460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
 			(at 113.03 121.92 0)
 			(effects
 				(font
@@ -13040,7 +13040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NYS215"
+		(property "Footprint" "Project:NYS215"
 			(at 257.81 9.22 0)
 			(effects
 				(font
@@ -13998,7 +13998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NYS215"
+		(property "Footprint" "Project:NYS215"
 			(at 30.48 117.78 0)
 			(effects
 				(font
@@ -15118,7 +15118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_4ms_Switch:Switch_Toggle_SPDT_SubMini"
 			(at 33.02 53.34 0)
 			(effects
 				(font
